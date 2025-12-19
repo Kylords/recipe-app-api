@@ -17,7 +17,7 @@ def create_user(**params):
     return get_user_model().objects.create_user(**params)
 
 
-class PublicUserApiTestsa(TestCase):
+class PublicUserApiTests(TestCase):
     """test the public features of the user API"""
 
     def setUp(self):
